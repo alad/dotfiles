@@ -1,7 +1,9 @@
 " Make it beautiful - colors and fonts
 
+set t_Co=256
+
 " http://ethanschoonover.com/solarized/vim-colors-solarized
-let s:myTheme='solarized'
+let s:myTheme='Tomorrow-Night'
 exec 'colorscheme ' . s:myTheme
 
 " If there's a custom powerline theme too, load it. Otherwise load the
